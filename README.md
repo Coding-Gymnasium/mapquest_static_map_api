@@ -33,8 +33,8 @@ Tasks:
   - [x] moved pry to the development test group.
   - [x] I am now trying to mimic then enrollment tests a bit since they should be similar based on that I want to create enrollments through transfer
   - [x] added back root path I accidentally deleted when editing the routes
+  - [x] Mimicking enrollments controller set up some before_action methods and strong params
 
-  
 ### Note 1: 
 Using RSpec I would check the validations and relationships but I haven't done that with Test. I will move forward for time sake and comeback to it if I still have time.
 

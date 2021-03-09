@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   resources :schools do
     resources :enrollments
   end
-  resources :transfers, only: [:new, :create, :index]
+  resources :transfers, only: [:new, :create, :show, :index]
 end
