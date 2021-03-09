@@ -24,3 +24,9 @@ Tasks:
   a. Transfer object
   b. Controller/routes
   c. Views new, show.
+
+
+  rails g model Transfer student:references school:references cohort:references start_date:date end_date:date
+
+### Note 1: 
+Using RSpec I would check the validations and relationships but I haven't done that with Test. I will move forward for time sake and comeback to it if I still have time.
