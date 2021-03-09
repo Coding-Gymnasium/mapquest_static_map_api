@@ -41,6 +41,13 @@ Tasks:
 
   - [x] Fix tests
 
+3. I have 20 minutes. Going to try the map since I did something similar in a school project
+    - I need faraday to make the call
+    - I need figaro to hide my credentials
+    - I need a service for the api
+    - I need to update the controller show
+    - I need to update the view with an image_tag
+
 ### Note 1: 
 Using RSpec I would check the validations and relationships but I haven't done that with Test. I will move forward for time sake and comeback to it if I still have time.
 
