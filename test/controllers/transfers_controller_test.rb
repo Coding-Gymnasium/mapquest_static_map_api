@@ -16,7 +16,7 @@ class TransfersControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get create" do
+  test "should create a Transfer" do
     assert_difference('Transfer.count') do
       post transfers_path, params: { transfer: { cohort_id: @cohort.id,student_id: @student.id, school_id: @school.id, start_date: Date.today, end_date: Date.today + 90}}
       end

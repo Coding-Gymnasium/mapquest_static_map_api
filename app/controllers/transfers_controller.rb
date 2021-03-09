@@ -15,6 +15,16 @@ class TransfersController < ApplicationController
   end
 
   def create
+    @transfer = Transfer.new(transfer_params)
+    @enrollment = Enrollment.new(school_id: @transfer.school_id, student_id: @transfer.student_id, cohort_id: @transfer.cohort_id, start_date: @transfer.start_date, end_date: @transfer.end_date) 
+    respond_to do |format|
+      if @transfer.save && @enrollment.save
+        format.html { redirect_to "/schools/#{@enrollment.school_id}/enrollments/#{@enrollment.id}", notice: "Enrollment was successfully created." }
+      else
+        format.html { render :new, status: :unprocessable_entity }
+        format.json { render json: @enrollment.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
   private
