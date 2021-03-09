@@ -11,3 +11,16 @@
 **Notes:**
 <b>Please work on this repo, committing your work. When complete please zip the repo back up and email it to jwindholtz@everfi.com</b>
 <b>Preferrably try to complete this within 7 days of receipt.  Please don't spend more then 2 hours on this take home project.
+
+
+Nico's notes:
+After reviewing the code I decided to have a transfer create an enrollment. 
+Transfer should have what enrollment needs:
+student, school, cohort, starting date, and ending date.
+
+Tasks:
+1. add pry to gemfile to inspect code.
+2. Create a transfer object, controller, and view. I'll try to stay as close as possible to the existing code for consistency.
+  a. Transfer object
+  b. Controller/routes
+  c. Views new, show.
