@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  root 'page#index'
   resources :curriculums
   resources :students
   resources :cohorts
@@ -7,4 +6,5 @@ Rails.application.routes.draw do
   resources :schools do
     resources :enrollments
   end
+  resources :transfers, only: [:new, :create, :index]
 end
