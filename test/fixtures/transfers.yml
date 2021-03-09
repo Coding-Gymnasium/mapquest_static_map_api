@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student: one
+  school: one
+  cohort: one
+  start_date: 2021-03-09
+  end_date: 2021-03-09
+
+two:
+  student: two
+  school: two
+  cohort: two
+  start_date: 2021-03-09
+  end_date: 2021-03-09
