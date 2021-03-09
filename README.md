@@ -39,6 +39,8 @@ Tasks:
   - [x] Solve create test
   - [x] Views
 
+  - [x] Fix tests
+
 ### Note 1: 
 Using RSpec I would check the validations and relationships but I haven't done that with Test. I will move forward for time sake and comeback to it if I still have time.
 

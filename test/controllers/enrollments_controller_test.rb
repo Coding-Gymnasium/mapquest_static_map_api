@@ -53,9 +53,9 @@ class EnrollmentsControllerTest < ActionDispatch::IntegrationTest
 
   test "should destroy enrollment" do
     assert_difference('Enrollment.count', -1) do
-      delete school_enrollment_url(@school_1, @enrollment)
+      delete school_enrollment_path(@school_1, @enrollment)
     end
 
-    assert_redirected_to enrollments_url
+    assert_redirected_to school_enrollments_path
   end
 end
