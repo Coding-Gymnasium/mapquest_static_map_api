@@ -8,6 +8,8 @@ class SchoolsController < ApplicationController
 
   # GET /schools/1 or /schools/1.json
   def show
+    coordinates = MapService.get_coordinates(@school.location)
+    @map = MapService.get_map(coordinates)
   end
 
   # GET /schools/new
