@@ -36,7 +36,7 @@ Tasks:
   - [x] Mimicking enrollments controller set up some before_action methods and strong params
   - [x] Passed showed test
 
-  - [ ] Solve create test
+  - [x] Solve create test
   - [x] Views
 
 ### Note 1: 
